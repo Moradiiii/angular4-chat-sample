@@ -1,0 +1,14 @@
+
+<div class="view-chat-all-section">
+  <table>
+    <tr>
+      <td *ngFor='let room of rooms'><app-chat-viewer [discussionName]="room"></app-chat-viewer></td>
+    </tr>
+  </table>
+  <table>
+    <tr>
+      <td><app-chat [rooms]="rooms"></app-chat></td>
+    </tr>
+  </table>
+</div>
+

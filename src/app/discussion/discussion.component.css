@@ -1,0 +1,13 @@
+
+
+.view-chat-all-section {
+  padding: 20px;
+}
+
+.view-chat-all-section table {
+  width: 100%;
+}
+
+table {
+  table-layout: fixed;
+}

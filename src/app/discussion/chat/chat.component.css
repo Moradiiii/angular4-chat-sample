@@ -1,0 +1,74 @@
+.chat {
+  border: 1px solid black;
+  height: calc(50vh - 40px)
+}
+
+table {
+  width: 100%;
+  height: 100%;
+  table-layout: fixed;
+}
+
+.room-section {
+  width: 200px;
+  border-right: 1px solid black
+}
+
+.chat-section {
+  width: calc(100% - 200px);
+}
+
+table td {
+  vertical-align: top;
+}
+
+td.room-section > div {
+  height: 50px;
+  width: 100%;
+}
+
+td.room-section > div:first-child {
+  border-bottom: 1px solid black;
+}
+
+td.room-section > div:nth-child(2n) {
+  background-color: #f7f7f7;
+}
+
+.room-title {
+  padding: 0px 10px;
+  line-height: 50px;
+  cursor: pointer;
+}
+
+.room-title-select {
+  padding: 0px 10px;
+  line-height: 50px;
+}
+
+.room-chat {
+  height: calc(100% - 100px);
+  width: calc(100% - 22px);
+  padding: 10px;
+  border-bottom: 1px solid black;
+  overflow: auto;
+}
+
+.room-input {
+  height: 100px;
+  width: 100%;
+}
+
+.room-input textarea {
+  box-shadow: none;
+  border: none;
+  height: calc(100% - 20px);
+  width: calc(100% - 20px);
+  padding: 10px;
+  resize: none;
+}
+
+textarea:active,
+textarea:focus {
+  outline: none;
+}

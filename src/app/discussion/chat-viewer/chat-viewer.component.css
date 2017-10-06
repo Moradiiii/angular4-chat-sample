@@ -1,0 +1,18 @@
+.chat-viewer {
+  border: 1px solid black;
+  height: calc(50vh - 40px)
+}
+
+.room-title {
+  padding: 0px 10px;
+  line-height: 50px;
+  height: 50px;
+  border-bottom: 1px solid black;
+}
+
+.room-chat {
+  padding: 10px;
+  width: calc(100% - 20px);
+  height: calc(100% - 72px);
+  overflow: auto;
+}

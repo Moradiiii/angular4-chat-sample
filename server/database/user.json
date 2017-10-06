@@ -1,0 +1,27 @@
+[
+  {
+    "name": "David",
+    "title": "CEO",
+    "room": ["Room X", "Room Y", "Room Z"]
+  },
+  {
+    "name": "John",
+    "title": "Project Manager",
+    "room": ["Room X", "Room Y"]
+  },
+  {
+    "name": "Alex",
+    "title": "Software Developer",
+    "room": ["Room X", "Room Z"]
+  },
+  {
+    "name": "Tom",
+    "title": "UI Designer",
+    "room": ["Room X", "Room Y", "Room Z"]
+  },
+  {
+    "name": "Mary",
+    "title": "QA Engineer",
+    "room": ["Room Z"]
+  }
+]

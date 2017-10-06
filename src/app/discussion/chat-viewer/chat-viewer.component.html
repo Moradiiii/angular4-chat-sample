@@ -1,0 +1,8 @@
+<div class="chat-viewer">
+  <div class="room-title">{{discussionName}}</div>
+  <div class="room-chat">
+      <ul *ngIf="selectedDiscussion">
+        <li *ngFor="let chat of selectedDiscussion.chats">{{chat.content}}</li>
+      </ul>
+  </div>
+</div>

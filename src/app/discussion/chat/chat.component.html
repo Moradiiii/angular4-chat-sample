@@ -1,0 +1,27 @@
+<div class="chat" *ngIf="rooms" >
+  <table>
+    <tr>
+      <td class="room-section">
+        <div>
+          <div class="room-title-select">Select<span *ngIf="selectedDiscussion">ed: {{selectedDiscussion.room}} </span>
+            <span *ngIf="!selectedDiscussion"> a room below</span>
+          </div>
+        </div>
+        <div *ngFor="let room of rooms">
+          <div class="room-title" (click)="select(room)">
+          {{room}}</div>
+        </div>
+      </td>
+      <td class="chat-section" *ngIf="selectedDiscussion">
+        <div class="room-chat">
+            <ul *ngIf="selectedDiscussion">
+              <li *ngFor="let chat of selectedDiscussion.chats">{{chat.content}}</li>
+            </ul>
+        </div>
+        <div class="room-input">
+          <textarea placeholder="Press [alt + enter] to send a message" (keydown)="keydown($event)"></textarea>
+        </div>
+      </td>
+    </tr>
+  </table>
+</div>
