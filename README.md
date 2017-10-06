@@ -1,10 +1,10 @@
 # Angular4 simple real-time chat app
 
 ### Server side application
-[authentication-sample: express server](https://github.com/ysscott2012/chat-sample/tree/master/server)
+[chat-sample: express server](https://github.com/ysscott2012/angular4-chat-sample/tree/master/server)
 
 ### Client side application
-[authentication-sample: angular 4 app](https://github.com/ysscott2012/chat-sample/tree/master/src/app)
+[chat-sample: angular 4 app](https://github.com/ysscott2012/angular4-chat-sample/tree/master/src/app)
 
 ### Dependencies (package.json)
 
@@ -34,7 +34,7 @@ Please see below dependencies. If you are trying to create a new application by 
 ### Usage
 
 - Clone or download this repository. 
-  - `git clone https://github.com/ysscott2012/chat-sample.git`
+  - `git clone https://github.com/ysscott2012/angular4-chat-sample.git`
   
 - Install all dependencies.
   - `npm install`
